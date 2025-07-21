@@ -26,5 +26,35 @@
   "enabledMcpjsonServers": [
     "context7"
   ],
-  "enableAllProjectMcpServers": true
+  "enableAllProjectMcpServers": true,
+  "model": "claude-sonnet-4-0",
+  "permissions": {
+    "allow": [
+      "Edit",
+      "MultiEdit",
+      "NotebookEdit",
+      "WebFetch",
+      "WebSearch",
+      "Write",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)",
+      "Bash(cp:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh issue create:*)",
+      "Bash(gh issue edit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(git push*)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~/*)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
 }
