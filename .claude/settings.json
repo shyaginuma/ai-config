@@ -27,7 +27,7 @@
     "context7"
   ],
   "enableAllProjectMcpServers": true,
-  "model": "claude-sonnet-4-0",
+  "model": "claude-sonnet-4-20250514",
   "permissions": {
     "allow": [
       "Edit",
