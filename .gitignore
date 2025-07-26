@@ -65,3 +65,9 @@ credentials.json
 *.key
 *.pem
 *.crt
+
+# Claude Code generated files
+projects/
+shell-snapshots/
+statsig/
+todos/
