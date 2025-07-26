@@ -3,6 +3,14 @@
     "context7": {
       "type": "http",
       "url": "context7"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {}
     }
   }
 }
