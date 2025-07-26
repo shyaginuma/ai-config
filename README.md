@@ -5,9 +5,3 @@
 ```shell
 ln -s ~/pathto/ai-config/.claude/ ~/.
 ```
-
-## MCP
-
-```shell
-ln -s ~/pathto/ai-config/.mcp.json ~/.
-```
